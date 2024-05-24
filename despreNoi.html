@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="despreNoi_html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="despreMine.css">
+    <title>Despre Noi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Lavinia</h1>
+            <h2>Photo Studio</h2>
+        </div>
+        <ol class="headerList">
+            <li class="li Acasa"><a href="index.html">Acasa</a></li>
+            <li class="li Portofoliu"><a href="portofoliu.html">Portofoliu</a></li>
+            <li class="li DespreNoi"><a href="despreNoi.html">Despre Noi</a></li>
+            <li class="li Informatii"><a href="information.html">Informatii</a></li>
+            <li class="li Contact"><a href="contact.html">Contact</a></li>
+        </ol>
+        <div class="portofoliuMsg">
+            <h3>Fiecare cadru surprins reprezintă o poveste, iar eu sunt Lavinia, povestitorul care transformă momentele în amintiri de neuitat.</h3>
+        </div>
+    </header>
+    <div class="despreNoi_page">
+        <div class="profileSection">
+            <img src="images/profile.jpg" alt="Profile Picture" class="profilePicture">
+            <div class="profileDescription">
+                <h1 class="profileName">Salut!</h1>
+                <p class="profileBio">Numele meu este Lavinia, sunt pasionată de capturarea momentelor prețioase și de transformarea acestora în amintiri de neuitat. De-a lungul carierei mele, am avut ocazia de a lucra cu oameni minunați și de a explora locații superbe, ceea ce mi-a permis să îmi dezvolt stilul și să îmi perfecționez tehnica. Fie că este vorba despre nunți, portrete, peisaje sau evenimente speciale, îmi place să aduc emoție și autenticitate în fiecare fotografie. Cred cu tărie că fiecare imagine spune o poveste și mă străduiesc să surprind esența fiecărui moment. Abia aștept să colaborez cu tine și să transform viziunea ta în realitate!</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="carousel">
+            <div><img src="images/img1.jpg" alt="Imagine 1"></div>
+            <div><img src="images/img10.jpg" alt="Imagine 2"></div>
+            <div><img src="images/img12.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img2.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img3.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img4.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img5.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img6.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img7.jpg" alt="Imagine 3"></div>
+            <!-- Adaugă mai multe imagini după nevoie -->
+        </div>
+        <nav>
+            <ol class="headerList_footer">
+                <li class="li"><a href="index.html">Acasa</a></li>
+                <li class="li"><a href="portofoliu.html">Portofoliu</a></li>
+                <li class="li"><a href="despreNoi.html">Despre Noi</a></li>
+                <li class="li"><a href="information.html">Informatii</a></li>
+                <li class="li active"><a href="contact.html">Contact</a></li>
+            </ol>
+        </nav>
+        <div class="copyrights">
+            Copyright © 2024 Lavinia FotoStudio | Toate drepturile rezervate
+        </div>
+    </footer>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.carousel').slick({
+            infinite: true,
+            slidesToShow: 13,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 6000,
+        });
+    });
+</script>

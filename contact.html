@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ro" class="contact_html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact - Lavinia Photo Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Lavinia</h1>
+            <h2>Photo Studio</h2>
+        </div>
+        <nav>
+            <ol class="headerList">
+                <li class="li"><a href="index.html">Acasa</a></li>
+                <li class="li"><a href="portofoliu.html">Portofoliu</a></li>
+                <li class="li"><a href="despreNoi.html">Despre Noi</a></li>
+                <li class="li"><a href="information.html">Informatii</a></li>
+                <li class="li active"><a href="contact.html">Contact</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main class="contact_page">
+        <section class="contact_section">
+            <h1>Contactează-ne</h1>
+            <p>Ne-ar plăcea să auzim de la tine! Pentru orice întrebări sau rezervări, te rugăm să ne contactezi folosind informațiile de mai jos.</p>
+            <h2>Informații de Contact</h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:studiofoto.lavinia@gmail.com">studiofoto.lavinia@gmail.com</a></li>
+                <li><strong>Telefon:</strong> <a href="tel:0756535108">0756 535 108</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="carousel">
+            <div><img src="images/img1.jpg" alt="Imagine 1"></div>
+            <div><img src="images/img10.jpg" alt="Imagine 2"></div>
+            <div><img src="images/img12.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img2.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img3.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img4.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img5.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img6.jpg" alt="Imagine 3"></div>
+            <div><img src="images/img7.jpg" alt="Imagine 3"></div>
+            <!-- Adaugă mai multe imagini după nevoie -->
+        </div>
+        <nav>
+            <ol class="headerList_footer">
+                <li class="li"><a href="index.html">Acasa</a></li>
+                <li class="li"><a href="portofoliu.html">Portofoliu</a></li>
+                <li class="li"><a href="despreNoi.html">Despre Noi</a></li>
+                <li class="li"><a href="information.html">Informatii</a></li>
+                <li class="li active"><a href="contact.html">Contact</a></li>
+            </ol>
+        </nav>
+        <div class="copyrights">
+            Copyright © 2024  Lavinia FotoStudio | Toate drepturile rezervate
+        </div>
+    </footer>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.carousel').slick({
+            infinite: true,
+            slidesToShow: 13,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 6000,
+        });
+    });
+</script>
